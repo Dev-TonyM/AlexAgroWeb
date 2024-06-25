@@ -1,0 +1,31 @@
+{
+  "name": "agroweb",
+  "version": "0.0.0",
+  "description": "pagina web para una agropecuaria :D",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "tony & lexiles",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dev-TonyM/AgroWeb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dev-TonyM/AgroWeb/issues"
+  },
+  "homepage": "https://github.com/Dev-TonyM/AgroWeb#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.3",
+    "dotenv": "^16.4.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.18.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.0.3"
+  }
+}

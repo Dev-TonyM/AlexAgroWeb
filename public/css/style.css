@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.logo{
+    width: 175px;
+}
+
+.logo-empresa{
+    width: 270px;
+}
+
+.GitHub{
+    width: 25px;
+}
+
+body{
+
+    color: #333;
+}
+img{
+    max-width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 40px 0;
+}
+
+#main{
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+
+
+
+/* Main*/
+.container-items{
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.5vh;
+    padding: 35px;
+}
+
+.items{
+    border-radius: 1rem;
+    background-color: #ffffff;
+}
+
+.items:hover{
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.items img{
+    width: 100%;
+    height: 28vh;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
+    transition: all .5s;
+}
+
+.items figure{
+    overflow: hidden;
+}
+
+.items:hover img{
+    transform: scale(1.2);
+}
+
+.info-producto{
+    padding: 1rem 2rem;
+    line-height: 1%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 4vh;
+    font-weight: 60vh;
+}
+
+
+.precio{
+    font-size: 4vh;
+    font-weight: 90vh;
+}
+
+.info-producto button{
+    border-radius: 2rem;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+
+
+/* Barra de navegacion */
+nav{
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 0 5%;
+    height: 100px;
+    background-color: #242526;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+
+nav .Logo{
+   float: left;
+   width: 40%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   font-size: 30px;
+   color: #ffffffff;
+   font-weight: bold;
+   text-transform: uppercase;
+   list-style: none;
+}
+
+nav .list{
+    float: right;
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .list{
+    list-style: none;
+    margin-left: 40%;
+}
+
+nav li{
+    padding-inline: 20px;
+}
+
+nav .list a {
+    display: block;
+    text-transform:uppercase;
+    list-style: none;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffffff;
+    text-decoration: none;
+    line-height:30px;
+    letter-spacing: 3px;
+}
+
+nav .list a:hover{
+    border-bottom: 4px solid #675bf9;
+}
+
+
+
+
+/* Footer */
+.bod{
+    background-color: #242526;
+    position: absolute;
+    width: 100%;
+}
+footer{
+    color: #ffffffff;
+    text-decoration: none;
+    bottom: 0;
+}
+
+footer .lado-izquierdo{
+
+    float: left;
+    margin-left: 7%;
+}
+
+footer .lado-derecho{
+
+    float: right;
+    margin-right: 7%;
+    margin-top: 15px;
+}
+
+footer .lado-derecho .redes{
+    float: right;
+}
+
+footer .lado-derecho .creadores{
+    float: left;
+    margin-right: 30px;
+}
+
+footer li{
+    list-style: none;
+}
+.culo{
+    text-decoration: none;
+    color: #ffffffff;
+}
+.GitHub{
+    width: 30px;
+    height: 30px;
+}
+.redesgit{
+
+    color: #ffffffff;
+    
+}
+
+.container-inventario{
+   margin-top: 130px;
+   padding: 50px;
+   text-align: center;
+}
+
+.container-agregar{
+    margin-top: 60px;
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+label{
+    float: left;
+}

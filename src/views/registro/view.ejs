@@ -1,0 +1,26 @@
+<%- include('../header.ejs') %>
+<link rel="stylesheet" href="/css/login.css">
+<main id="main">
+    <div id="fondo">
+        <form method="post" action="/registro" class="formu">
+            <div class="container">
+                <% if (error !=null) { %>
+                    <p style="color: red;"><%= error %></p>
+                <% } %>
+                <label for="nombre"><b>Nombre</b></label>
+                <input type="text" placeholder="Nombre" id="nombre" name="nombre" required>
+                <label for="apellido"><b>Apellido</b></label>
+                <input type="text" placeholder="Apellido" id="apellido" name="apellido" required>
+                <label for="user"><b>Usuario</b></label>
+                <input type="text" placeholder="Usuario" id="user" name="user" required>
+                <label for="pass"><b>Contraseña</b></label>
+                <input type="password" placeholder="Contraseña" id="pass" name="pass" required>
+                <div>
+                  <a href="/" class="button-cancelar">Cancelar</a><button type="submit" class="button-register">Registrarse</button>
+                </div>
+            </div>
+            <div class="space"></div>
+        </form>
+    </div>
+</main>
+<%- include('../footer.ejs') %>
